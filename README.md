@@ -1,4 +1,4 @@
-# 🎯 AltDonate  
+# <img width="26" height="26" alt="donation" src="https://github.com/user-attachments/assets/db396e2e-859e-4367-a9e3-a7077f452869" /> AltDonate  
 ### Alternative Donation Platform for Bangladeshi Streamers
 
 AltDonate is a full-stack donation platform that enables Bangladeshi streamers to receive **real-time on-stream donation alerts** using local Mobile Financial Services (MFS) like **bKash** and **Nagad**, without relying on international payment gateways.
@@ -7,8 +7,7 @@ AltDonate is a full-stack donation platform that enables Bangladeshi streamers t
 
 ## 🚀 Overview
 
-Global platforms such as Streamlabs do not support local payment methods commonly used in Bangladesh. AltDonate solves this by converting **MFS SMS notifications into instant stream alerts**, allowing viewers to donate بسهولة and streamers to receive support seamlessly.
-
+Global platforms such as Streamlabs do not support local payment methods commonly used in Bangladesh. AltDonate solves this by converting **MFS SMS notifications into instant stream alerts**, allowing viewers to donate easily and streamers to receive support seamlessly.
 
 ## ⚡ Key Features
 
