@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">{{ title }}</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="mb-3">
+                {{ form.phone_number.label(class="form-label") }}
+                {{ form.phone_number(class="form-control") }}
+                <small class="form-text text-muted">Phone number should be 10-11 digits without country code</small>
+            </div>
+            <div class="mb-3">
+                {{ form.display_name.label(class="form-label") }}
+                {{ form.display_name(class="form-control") }}
+            </div>
+            <div class="mb-3">
+                {{ form.submit(class="btn btn-primary") }}
+                <a href="{{ url_for('donors') }}" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
